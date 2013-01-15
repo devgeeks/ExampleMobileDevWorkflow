@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name = "format-detection" content = "telephone=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width;" />
+    <title>ExampleMobileDevWorkflow</title>
+    <link rel="stylesheet" type="text/css" href="components/font-awesome/css/font-awesome.min.css" />
+    <script type="text/javascript" src="components/yepnope/yepnope.js"></script>
+    <script type="text/javascript" src="components/chocolatechip-ui/libs/zepto.js"></script>
+    <script type="text/javascript" src="components/chocolatechip-ui/chui/iscroll.js"></script>
+    <script type="text/javascript">
+      yepnope({
+        test : $.os.android,
+        yep  : [
+          'components/chocolatechip-ui/chui/chui.android.js',
+          'components/chocolatechip-ui/chui/chui.android.css'
+        ],
+        nope : [
+          'components/chocolatechip-ui/chui/chui.ios.js',
+          'components/chocolatechip-ui/chui/chui.ios.css'
+        ],
+        complete: function(url, result, key) {
+          $('body').addClass((result)?"android":"ios");
+        }
+      });
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/app.css" />
+  </head>
+  <body>
+    <app>
+      <view id="menu" ui-navigation-status="current">
+        <subview>
+          <scrollpanel>
+            <div><p>Menu stuff here...</p></div>
+          </scrollpanel>
+        </subview>
+      </view>
+      <view id="main" ui-background-style="striped" ui-navigation-status="current">
+        <navbar>
+          <h1>Main</h1>
+          <uibutton class="menu" ui-bar-align="left">
+            <label><i class="icon-align-justify"></i></label>
+          </uibutton>
+        </navbar>
+        <subview ui-associations="withNavBar">
+          <scrollpanel>
+            <!-- // ... -->
+          </scrollpanel>
+        </subview>
+      </view>
+    </app>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="components/underscore/underscore.js"></script>
+    <script type="text/javascript" src="components/backbone/backbone.js"></script>
+    <script type="text/javascript" src="js/ExampleMobileDevWorkflow.js"></script>
+    <script type="text/javascript">
+        window.app && window.app.initialize();
+    </script>
+  </body>
+</html>

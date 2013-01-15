@@ -1,0 +1,23 @@
+{
+  "name": "ExampleMobileDevWorkflow",
+  "version": "0.1.0",
+  "description": "ExampleMobileDevWorkflow Mobile app",
+  "main": "index.html",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": "",
+  "author": "Tommy-Carlos Williams (http://devgeeks.org)",
+  "licenses": [
+    {
+      "type": "Apache2",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0"
+    }
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "grunt-shell": "0.1.x",
+    "grunt-jasmine-runner": "0.6.x"
+  }
+}

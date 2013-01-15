@@ -1,0 +1,10 @@
+body.android navbar, toolbar {
+    height: 50px;
+}
+body.android uibutton[ui-implements="tab"] icon {
+    display: none;
+}
+/* Can Android cope with a shadow on #main as well?
+body.ios #main {
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+} */
