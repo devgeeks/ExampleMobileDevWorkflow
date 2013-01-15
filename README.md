@@ -2,10 +2,10 @@
 
 ## Requirements
 
-- Node and npm [http://nodejs.org/](http://nodejs.org/)
-- Cordova CLI [https://github.com/apache/cordova-cli/](https://github.com/apache/cordova-cli/)
-- Bower [http://twitter.github.com/bower/](http://twitter.github.com/bower/)
-- Grunt [http://gruntjs.com/](http://gruntjs.com/)
+- Node and npm - [http://nodejs.org/](http://nodejs.org/)
+- Cordova CLI - [https://github.com/apache/cordova-cli/](https://github.com/apache/cordova-cli/)
+- Bower - [http://twitter.github.com/bower/](http://twitter.github.com/bower/)
+- Grunt - [http://gruntjs.com/](http://gruntjs.com/)
 
 ## Getting started
 
