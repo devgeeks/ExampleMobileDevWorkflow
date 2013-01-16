@@ -29,6 +29,9 @@ module.exports = function(grunt) {
       dist: {
         src: [
           '<banner:meta.banner>',
+          'src/models/*.js',
+          'src/collections/*.js',
+          'src/views/*.js',
           'src/app.js'
         ],
         dest: 'www/js/<%= pkg.name %>.js'
@@ -38,14 +41,12 @@ module.exports = function(grunt) {
       dist: {
         src: [
           '<banner:meta.banner>',
-          '<config:concat.dist.dest>',
-          'src/app.js'
+          '<config:concat.dist.dest>'
         ],
         dest: 'www/js/<%= pkg.name %>.min.js'
       }
     },
     jasmine : {
-      src : 'www/js/ExampleMobileDevWorkflow.js',
       specs : 'www/spec/**/*.js',
       template : 'www/spec/SpecRunner.html'
     },
@@ -86,6 +87,7 @@ module.exports = function(grunt) {
   // Default task.
   grunt.registerTask('default', 'lint concat min jasmine');
   // Custom tasks
+  grunt.registerTask('test', 'lint concat jasmine');
   grunt.registerTask('debug_ios', 'lint concat shell:debug_ios');
   grunt.registerTask('debug_android', 'lint concat shell:debug_android');
 
