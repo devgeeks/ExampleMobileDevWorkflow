@@ -27,6 +27,12 @@ To make sure everything is set up from the above, run your first tests
 
 Run `grunt test` - This will lint the source (`grunt lint`), concat the source into a single js file (`grunt concat`) and finally run the headless Jasmine tests (`grunt jasmine`).
 
+## Workflow
+
+JavaScript files are in `src`. They are kept out of the www tree so that they can be linted without trying to lint the concatenated and minified versions. However, the index.html should have a script tag only for the JavaScript files in either `www/components` (managed by Bower) or `www/js`.
+
+Building and testing the project is normally done via the Grunt tasks below.
+
 ## Grunt tasks
 
 `grunt lint`
