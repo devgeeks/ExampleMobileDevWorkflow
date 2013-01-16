@@ -19,7 +19,7 @@
 - cd into the project folder
 - run `npm install` to install any node_modules
 - run `bower install` to install any js/css components
-- run `cordova platform add ios` and/or `cordova platform add android` *
+- run `cordova platform add ios` and/or `cordova platform add android`
 
 ## First test
 
