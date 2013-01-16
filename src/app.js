@@ -11,7 +11,11 @@
       document.addEventListener("deviceready", app.onDeviceReady, false);
     },
     onDeviceReady: function() {
-      console.log('Device Ready');
+      // @FIXME: This seems cludgey
+      if (window.cssLoaded && navigator.splashscreen) {
+        navigator.splashscreen.hide();
+      }
+      app.mainView = new app.MainView();
     }
   });
 
