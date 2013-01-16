@@ -1,4 +1,5 @@
 www/components
 node_modules
+platforms
 www/js/ExampleMobileDevWorkflow.js
 www/js/ExampleMobileDevWorkflow.min.js
