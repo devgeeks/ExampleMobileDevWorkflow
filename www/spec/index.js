@@ -22,9 +22,9 @@ describe('app', function() {
       expect(window.Backbone.BasicAuth).toBeDefined();
     });
 
-    // Remove if no longer using ChUI
-    it('should have chocolatechip-ui', function() {
-      expect(window.$.UIAlphabeticalList).toBeDefined();
+    // Remove if no longer using jQTouch
+    it('should have jqtouch', function() {
+      expect(window.$.jQTouch).toBeDefined();
     });
   });
 

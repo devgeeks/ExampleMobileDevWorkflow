@@ -15,7 +15,6 @@
       if (window.cssLoaded && navigator.splashscreen) {
         navigator.splashscreen.hide();
       }
-      app.mainView = new app.MainView();
     }
   });
 

@@ -5,8 +5,8 @@
     "backbone": "latest",
     "underscore": "latest",
     "backbone.basicauth": "https://github.com/fiznool/backbone.basicauth.git",
-    "chocolatechip-ui": "https://github.com/rbiggs/chocolatechip-ui/archive/master.zip",
     "yepnope": "~1.5.4",
-    "font-awesome": "~3.0.1"
+    "font-awesome": "~3.0.1",
+    "jQTouch": "https://github.com/senchalabs/jQTouch/archive/master.zip"
   }
 }

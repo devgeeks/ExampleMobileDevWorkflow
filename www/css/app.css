@@ -1,32 +1,3 @@
-body.android navbar, toolbar {
-    height: 50px;
-}
-body.android uibutton[ui-implements="tab"] icon {
-    display: none;
-}
-/* Can Android cope with a shadow on #main as well? */
-body.ios #main {
-    box-shadow: 0 0 15px rgba(0,0,0,0.6);
-}
-#menu {
-  background-color: #333;
-  font-size: 0.8em;
-  color: #ccc;
-  width: 85%;
-}
-#menu input[type=search] {
-  font-size:1em;
-}
-#menu tableview {
-  border-top: 1px solide white;
-}
-#menu tableheader {
-  border-bottom:1px solid #d9d9d9;
-  font-size: 0.9em;
-}
-#menu tableview tablecell {
-  background-color: #333;
-}
-#menu tableview tablecell celltitle {
-  font-size: 0.9em;
+#jqt ul.edgetoedge {
+  margin: 0;
 }

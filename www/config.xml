@@ -37,5 +37,6 @@
     <preference name="fullscreen" value="false" />
     <preference name="BackupWebStorage" value="none" />
     <preference name="AutoHideSplashScreen" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
     <access origin="*" />
 </widget>
