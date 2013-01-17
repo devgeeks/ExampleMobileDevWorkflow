@@ -34,7 +34,16 @@
   </head>
   <body>
     <div id="jqt">
-      <div id="main">
+      <div id="menusheet" class="menusheet">
+        <ul class="edgetoedge scroll">
+          <li><a href="#" class="dismiss">jQTouch</a></li>
+          <li class="sep">Favorites</li>
+          <li><a href="#" class="dismiss">Edge to Edge</a></li>
+          <li><a href="#" class="dismiss">Plastic</a></li>
+          <li><a href="#" class="dismiss">Metal</a></li>
+        </ul>
+      </div>
+      <div id="main" class="current">
         <div class="toolbar">
           <a href="#menusheet" class="menu button leftButton"><i class="icon-align-justify icon-large"></i></a>
           <h1>Main</h1>
@@ -46,15 +55,6 @@
             <li class="arrow"><a href="#next">Things</a></li>
           </ul>
         </div>
-      </div>
-      <div id="menusheet" class="menusheet">
-        <ul class="edgetoedge scroll">
-          <li><a href="#" class="dismiss">jQTouch</a></li>
-          <li class="sep">Favorites</li>
-          <li><a href="#" class="dismiss">Edge to Edge</a></li>
-          <li><a href="#" class="dismiss">Plastic</a></li>
-          <li><a href="#" class="dismiss">Metal</a></li>
-        </ul>
       </div>
       <div id="next">
         <div class="toolbar">
@@ -70,7 +70,7 @@
     </div>
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="components/jQTouch/src/jqtouch.js"></script>
-    <script type="text/javascript" src="components/jQTouch/extensions/jqt.menusheet.js"></script>
+    <script type="text/javascript" id="menusheet-script" src="components/jQTouch/extensions/jqt.menusheet.js"></script>
     <script type="text/javascript" src="components/underscore/underscore.js"></script>
     <script type="text/javascript" src="components/backbone/backbone.js"></script>
     <script type="text/javascript" src="js/ExampleMobileDevWorkflow.js"></script>
