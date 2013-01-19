@@ -4,4 +4,5 @@ node_js:
   - "0.6"
 
 before_script:
+  - export PATH=$PATH:`npm bin`
   - bower install
