@@ -1,6 +1,6 @@
 # Example Mobile Dev Workflow
 
-[![Build Status](https://travis-ci.org/devgeeks/ExampleMobileDevWorkflow.png?branch=master)](undefined)
+[![Build Status](https://travis-ci.org/devgeeks/ExampleMobileDevWorkflow.png?branch=master)](https://travis-ci.org/devgeeks/ExampleMobileDevWorkflow)
 
 ## Requirements
 
