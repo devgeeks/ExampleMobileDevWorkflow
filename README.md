@@ -1,5 +1,7 @@
 # Example Mobile Dev Workflow
 
+[![Build Status](https://travis-ci.org/devgeeks/ExampleMobileDevWorkflow.png?branch=master)](undefined)
+
 ## Requirements
 
 - Cordova CLI - [https://github.com/apache/cordova-cli/](https://github.com/apache/cordova-cli/)
