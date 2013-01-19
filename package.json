@@ -4,10 +4,12 @@
   "description": "ExampleMobileDevWorkflow Mobile app",
   "main": "index.html",
   "scripts": {
-    "test": "jasmine"
+    "test": "grunt test"
   },
   "repository": "",
   "author": "Tommy-Carlos Williams (http://devgeeks.org)",
+  "contributors": [
+  ],
   "licenses": [
     {
       "type": "Apache2",
